@@ -14,3 +14,4 @@ jobs:
         BUILD_DIR: docs/.vuepress/dist/
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: npm install && npm run docs:build
+        keep_history: true
