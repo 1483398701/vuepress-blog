@@ -4,7 +4,7 @@ const pluginConf = require("./config/pluginConf");
 module.exports = {
   title: "夢瓛-随记",
   description: "夢瓛的博客",
-  base: process.env.NODE_ENV == 'development' ? "/" : "/vuepress-blog/",
+  base: process.env.NODE_ENV == 'development' ? "/" : "/",
   head: headConf,
   plugins: pluginConf,
   markdown: {
